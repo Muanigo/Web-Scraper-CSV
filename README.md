@@ -23,3 +23,13 @@ Bu proje, BeautifulSoup ve Requests kütüphanelerini kullanarak bir web sitesin
 2. Gerekli kütüphaneleri yükleyin:
    ```bash
    pip install requests beautifulsoup4
+scraper.py dosyasını çalıştırın:
+
+python scraper.py
+
+
+Çalışma tamamlandığında bulunduğunuz klasörde news.csv dosyası oluşur.
+İçinde şu formatta veriler bulunur:
+
+Başlık, Link
+Example News Title, https://example.com
